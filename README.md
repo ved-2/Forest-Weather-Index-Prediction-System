@@ -75,6 +75,7 @@ The model predicts FWI using the following features:
 ```
 project/
 │── app.py
+│── requirements.txt
 │── README.md
 │
 ├── models/
@@ -100,7 +101,7 @@ cd project
 ### 2️ Install Dependencies
 
 ```bash
-pip install flask numpy pandas scikit-learn
+pip install -r requirements.txt
 ```
 
 ### 3️ Run the Application
@@ -127,6 +128,3 @@ http://127.0.0.1:5000/
 6. Ridge Regression model predicts FWI
 7. Result is displayed on the UI
 
-
-
----
