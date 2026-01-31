@@ -1,35 +1,15 @@
-# 🔥 Forest Weather Index (FWI) Prediction System
+# Forest Weather Index (FWI) Prediction System
 
 A **Machine Learning–powered web application** that predicts the **Forest Weather Index (FWI)** using weather and environmental parameters. The project evaluates multiple regression models and deploys the **best-performing Ridge Regression model** via a Flask web app for real-time predictions.
 
----
-
-## 📌 Table of Contents
-
-* [Overview](#overview)
-* [Features](#features)
-* [Machine Learning Approach](#machine-learning-approach)
-* [Input Features](#input-features)
-* [Tech Stack](#tech-stack)
-* [Project Structure](#project-structure)
-* [Setup & Installation](#setup--installation)
-* [How It Works](#how-it-works)
-* [Best Practices](#best-practices)
-* [Screenshots](#screenshots)
-* [Future Enhancements](#future-enhancements)
-* [Author](#author)
-
----
-
-## 🧭 Overview
+## Overview
 
 Forest fires are heavily influenced by weather conditions. The **Forest Weather Index (FWI)** is a widely used indicator to estimate fire intensity and risk. This project leverages machine learning to predict FWI based on real-world meteorological inputs and exposes the model through a simple, user-friendly web interface.
 
 ---
 
-## ✨ Features
+## Features
 
-* Real-time FWI prediction through a web UI
 * Comparison of multiple regression models
 * Robust preprocessing with `StandardScaler`
 * Secure prediction using HTTP POST
@@ -37,9 +17,9 @@ Forest fires are heavily influenced by weather conditions. The **Forest Weather 
 
 ---
 
-## 🧠 Machine Learning Approach
+## Machine Learning Approach
 
-### 🔍 Models Evaluated
+### Models Evaluated
 
 The following regression models were trained and evaluated:
 
@@ -50,7 +30,7 @@ The following regression models were trained and evaluated:
 * RidgeCV
 * LassoCV
 
-### ✅ Model Selection
+### Model Selection
 
 > **Ridge Regression** was selected as the final model based on **higher accuracy, better generalization, and stable performance** on unseen data.
 
@@ -62,7 +42,7 @@ The following regression models were trained and evaluated:
 
 ---
 
-## 📊 Input Features
+## Input Features
 
 The model predicts FWI using the following features:
 
@@ -80,7 +60,7 @@ The model predicts FWI using the following features:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Backend:** Flask (Python)
 * **Frontend:** HTML, CSS
@@ -90,7 +70,7 @@ The model predicts FWI using the following features:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 project/
@@ -108,28 +88,28 @@ project/
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 
 ```bash
 git clone <repository-url>
 cd project
 ```
 
-### 2️⃣ Install Dependencies
+### 2️ Install Dependencies
 
 ```bash
 pip install flask numpy pandas scikit-learn
 ```
 
-### 3️⃣ Run the Application
+### 3️ Run the Application
 
 ```bash
 python app.py
 ```
 
-### 4️⃣ Open in Browser
+### 4️ Open in Browser
 
 ```
 http://127.0.0.1:5000/
@@ -137,7 +117,7 @@ http://127.0.0.1:5000/
 
 ---
 
-## 🔄 How It Works
+## How It Works
 
 1. User opens the **index page**
 2. Navigates to the prediction form
